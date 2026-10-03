@@ -1,0 +1,2 @@
+[console_scripts]
+anatoliacore = anatoliacore.cli:main

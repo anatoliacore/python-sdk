@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/anatoliacore/__init__.py
+src/anatoliacore/cli.py
+src/anatoliacore/client.py
+src/anatoliacore.egg-info/PKG-INFO
+src/anatoliacore.egg-info/SOURCES.txt
+src/anatoliacore.egg-info/dependency_links.txt
+src/anatoliacore.egg-info/entry_points.txt
+src/anatoliacore.egg-info/top_level.txt
+tests/test_client.py

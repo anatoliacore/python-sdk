@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anatoliacore"
+version = "1.0.0"
+description = "Official Python SDK and CLI for the AnatoliaCore Public API"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "LicenseRef-Proprietary"
+authors = [{name = "AnatoliaCore"}]
+dependencies = []
+
+[project.urls]
+Homepage = "https://console.anatoliacore.com"
+Documentation = "https://console.anatoliacore.com/api/public/openapi.json"
+Repository = "https://github.com/furkangogus/Cloud-Console"
+Issues = "https://github.com/furkangogus/Cloud-Console/issues"
+
+[project.scripts]
+anatoliacore = "anatoliacore.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
